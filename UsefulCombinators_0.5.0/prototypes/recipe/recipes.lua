@@ -251,5 +251,71 @@ data:extend({
       {"counting-combinator", 1}
     },
     result = "statistic-combinator"
+  },
+  {
+    type = "recipe",
+    name = "positional-combinator",
+    enabled = "false",
+    ingredients =
+    {
+      {"electronic-circuit", 1},
+      {"constant-combinator", 2}
+    },
+    result = "positional-combinator"
+  },
+  {
+    type = "recipe",
+    name = "entity-combinator",
+    enabled = "false",
+    ingredients =
+    {
+      {"electronic-circuit", 1},
+      {"decider-combinator", 2}
+    },
+    result = "entity-combinator"
+  },
+  {
+    type = "recipe",
+    name = "ghost-combinator",
+    enabled = "false",
+    ingredients =
+    {
+      {"advanced-circuit", 1},
+      {"entity-combinator", 2}
+    },
+    result = "ghost-combinator"
+  },
+  {
+    type = "recipe",
+    name = "inventory-combinator",
+    enabled = "false",
+    ingredients =
+    {
+      {"processing-unit", 1},
+      {"ghost-combinator", 2}
+    },
+    result = "inventory-combinator"
+  },
+  {
+    type = "recipe",
+    name = "research-combinator",
+    enabled = "false",
+    ingredients =
+    {
+      {"advanced-circuit", 1},
+      {"arithmetic-combinator", 2}
+    },
+    result = "research-combinator"
+  },
+  {
+    type = "recipe",
+    name = "relativity-combinator",
+    enabled = "false",
+    ingredients =
+    {
+      {"processing-unit", 2},
+      {"positional-combinator", 2},
+    },
+    result = "relativity-combinator"
   }
 })

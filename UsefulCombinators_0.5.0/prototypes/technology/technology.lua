@@ -97,6 +97,30 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "statistic-combinator"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "positional-combinator"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "entity-combinator"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "ghost-combinator"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "inventory-combinator"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "research-combinator"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "relativity-combinator"
       }
     },
     prerequisites = {"circuit-network"},

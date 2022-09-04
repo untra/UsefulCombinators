@@ -175,5 +175,45 @@
 		icon_size = 32,
     subgroup = "virtual-signal",
     order = "u[stop]"
+  },
+  {
+    type = "virtual-signal",
+    name = "entities-signal",
+    icon = "__UsefulCombinators__/graphics/icons/signal/entities-signal.png",
+		icon_size = 32,
+    subgroup = "virtual-signal",
+    order = "u[entities]"
+  },
+  {
+    type = "virtual-signal",
+    name = "ghosts-signal",
+    icon = "__UsefulCombinators__/graphics/icons/signal/ghosts-signal.png",
+		icon_size = 32,
+    subgroup = "virtual-signal",
+    order = "u[ghosts]"
+  },
+  {
+    type = "virtual-signal",
+    name = "items-signal",
+    icon = "__UsefulCombinators__/graphics/icons/signal/items-signal.png",
+		icon_size = 32,
+    subgroup = "virtual-signal",
+    order = "u[items]"
+  },
+  {
+    type = "virtual-signal",
+    name = "stacks-signal",
+    icon = "__UsefulCombinators__/graphics/icons/signal/stacks-signal.png",
+		icon_size = 32,
+    subgroup = "virtual-signal",
+    order = "u[items]"
+  },
+  {
+    type = "virtual-signal",
+    name = "research-signal",
+    icon = "__UsefulCombinators__/graphics/icons/signal/research-signal.png",
+		icon_size = 32,
+    subgroup = "virtual-signal",
+    order = "u[items]"
   }
 })

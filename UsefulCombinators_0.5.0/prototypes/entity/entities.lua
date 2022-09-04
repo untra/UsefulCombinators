@@ -3609,5 +3609,1104 @@ data:extend({
       }
     },
     circuit_wire_max_distance = 7.5
-  }
+  },
+  {
+    type = "constant-combinator",
+    name = "positional-combinator",
+    icon = "__UsefulCombinators__/graphics/icons/positional-combinator.png",
+    icon_size = 32,
+		flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "positional-combinator"},
+    max_health = 50,
+    corpse = "small-remnants",
+
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+
+    item_slot_count = 1,
+    
+    sprites =
+    {
+      north =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/positional-combinator.png",
+        x = 158,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      east =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/positional-combinator.png",
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      south =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/positional-combinator.png",
+        x = 237,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      west =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/positional-combinator.png",
+        x = 79,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      }
+    },
+
+    activity_led_sprites =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-N.png",
+        width = 11,
+        height = 10,
+        frame_count = 1,
+        shift = {0.296875, -0.40625},
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-E.png",
+        width = 14,
+        height = 12,
+        frame_count = 1,
+        shift = {0.25, -0.03125},
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-S.png",
+        width = 11,
+        height = 11,
+        frame_count = 1,
+        shift = {-0.296875, -0.078125},
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-W.png",
+        width = 12,
+        height = 12,
+        frame_count = 1,
+        shift = {-0.21875, -0.46875},
+      }
+    },
+
+    activity_led_light =
+    {
+      intensity = 0.8,
+      size = 1,
+    },
+
+    activity_led_light_offsets =
+    {
+      {0.296875, -0.40625},
+      {0.25, -0.03125},
+      {-0.296875, -0.078125},
+      {-0.21875, -0.46875}
+    },
+
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.15625, -0.28125},
+          green = {0.65625, -0.25}
+        },
+        wire =
+        {
+          red = {-0.28125, -0.5625},
+          green = {0.21875, -0.5625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, -0.15625},
+          green = {0.75, 0.25},
+        },
+        wire =
+        {
+          red = {0.46875, -0.5},
+          green = {0.46875, -0.09375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, 0.5625},
+          green = {0.21875, 0.5625}
+        },
+        wire =
+        {
+          red = {0.28125, 0.15625},
+          green = {-0.21875, 0.15625}
+        }
+      },
+      {
+        shadow =
+        {
+          red = {-0.03125, 0.28125},
+          green = {-0.03125, -0.125},
+        },
+        wire =
+        {
+          red = {-0.46875, 0},
+          green = {-0.46875, -0.40625},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
+  {
+    type = "constant-combinator",
+    name = "entity-combinator",
+    icon = "__UsefulCombinators__/graphics/icons/entity-combinator.png",
+    icon_size = 32,
+		flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "entity-combinator"},
+    max_health = 50,
+    corpse = "small-remnants",
+
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+
+    item_slot_count = 1,
+    
+    sprites =
+    {
+      north =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/entity-combinator.png",
+        x = 158,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      east =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/entity-combinator.png",
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      south =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/entity-combinator.png",
+        x = 237,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      west =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/entity-combinator.png",
+        x = 79,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      }
+    },
+
+    activity_led_sprites =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-N.png",
+        width = 11,
+        height = 10,
+        frame_count = 1,
+        shift = {0.296875, -0.40625},
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-E.png",
+        width = 14,
+        height = 12,
+        frame_count = 1,
+        shift = {0.25, -0.03125},
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-S.png",
+        width = 11,
+        height = 11,
+        frame_count = 1,
+        shift = {-0.296875, -0.078125},
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-W.png",
+        width = 12,
+        height = 12,
+        frame_count = 1,
+        shift = {-0.21875, -0.46875},
+      }
+    },
+
+    activity_led_light =
+    {
+      intensity = 0.8,
+      size = 1,
+    },
+
+    activity_led_light_offsets =
+    {
+      {0.296875, -0.40625},
+      {0.25, -0.03125},
+      {-0.296875, -0.078125},
+      {-0.21875, -0.46875}
+    },
+
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.15625, -0.28125},
+          green = {0.65625, -0.25}
+        },
+        wire =
+        {
+          red = {-0.28125, -0.5625},
+          green = {0.21875, -0.5625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, -0.15625},
+          green = {0.75, 0.25},
+        },
+        wire =
+        {
+          red = {0.46875, -0.5},
+          green = {0.46875, -0.09375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, 0.5625},
+          green = {0.21875, 0.5625}
+        },
+        wire =
+        {
+          red = {0.28125, 0.15625},
+          green = {-0.21875, 0.15625}
+        }
+      },
+      {
+        shadow =
+        {
+          red = {-0.03125, 0.28125},
+          green = {-0.03125, -0.125},
+        },
+        wire =
+        {
+          red = {-0.46875, 0},
+          green = {-0.46875, -0.40625},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
+  {
+    type = "constant-combinator",
+    name = "not-gate-combinator",
+    icon = "__UsefulCombinators__/graphics/icons/not-gate-combinator.png",
+    icon_size = 32,
+		flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "not-gate-combinator"},
+    max_health = 50,
+    corpse = "small-remnants",
+
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+
+    item_slot_count = 1,
+    
+    sprites =
+    {
+      north =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/not-gate-combinator.png",
+        x = 158,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      east =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/not-gate-combinator.png",
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      south =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/not-gate-combinator.png",
+        x = 237,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      west =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/not-gate-combinator.png",
+        x = 79,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      }
+    },
+
+    activity_led_sprites =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-N.png",
+        width = 11,
+        height = 10,
+        frame_count = 1,
+        shift = {0.296875, -0.40625},
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-E.png",
+        width = 14,
+        height = 12,
+        frame_count = 1,
+        shift = {0.25, -0.03125},
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-S.png",
+        width = 11,
+        height = 11,
+        frame_count = 1,
+        shift = {-0.296875, -0.078125},
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-W.png",
+        width = 12,
+        height = 12,
+        frame_count = 1,
+        shift = {-0.21875, -0.46875},
+      }
+    },
+
+    activity_led_light =
+    {
+      intensity = 0.8,
+      size = 1,
+    },
+
+    activity_led_light_offsets =
+    {
+      {0.296875, -0.40625},
+      {0.25, -0.03125},
+      {-0.296875, -0.078125},
+      {-0.21875, -0.46875}
+    },
+
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.15625, -0.28125},
+          green = {0.65625, -0.25}
+        },
+        wire =
+        {
+          red = {-0.28125, -0.5625},
+          green = {0.21875, -0.5625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, -0.15625},
+          green = {0.75, 0.25},
+        },
+        wire =
+        {
+          red = {0.46875, -0.5},
+          green = {0.46875, -0.09375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, 0.5625},
+          green = {0.21875, 0.5625}
+        },
+        wire =
+        {
+          red = {0.28125, 0.15625},
+          green = {-0.21875, 0.15625}
+        }
+      },
+      {
+        shadow =
+        {
+          red = {-0.03125, 0.28125},
+          green = {-0.03125, -0.125},
+        },
+        wire =
+        {
+          red = {-0.46875, 0},
+          green = {-0.46875, -0.40625},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
+  {
+    type = "constant-combinator",
+    name = "nand-gate-combinator",
+    icon = "__UsefulCombinators__/graphics/icons/nand-gate-combinator.png",
+    icon_size = 32,
+		flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "nand-gate-combinator"},
+    max_health = 50,
+    corpse = "small-remnants",
+
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+
+    item_slot_count = 1,
+    
+    sprites =
+    {
+      north =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nand-gate-combinator.png",
+        x = 158,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      east =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nand-gate-combinator.png",
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      south =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nand-gate-combinator.png",
+        x = 237,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      west =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nand-gate-combinator.png",
+        x = 79,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      }
+    },
+
+    activity_led_sprites =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-N.png",
+        width = 11,
+        height = 10,
+        frame_count = 1,
+        shift = {0.296875, -0.40625},
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-E.png",
+        width = 14,
+        height = 12,
+        frame_count = 1,
+        shift = {0.25, -0.03125},
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-S.png",
+        width = 11,
+        height = 11,
+        frame_count = 1,
+        shift = {-0.296875, -0.078125},
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-W.png",
+        width = 12,
+        height = 12,
+        frame_count = 1,
+        shift = {-0.21875, -0.46875},
+      }
+    },
+
+    activity_led_light =
+    {
+      intensity = 0.8,
+      size = 1,
+    },
+
+    activity_led_light_offsets =
+    {
+      {0.296875, -0.40625},
+      {0.25, -0.03125},
+      {-0.296875, -0.078125},
+      {-0.21875, -0.46875}
+    },
+
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.15625, -0.28125},
+          green = {0.65625, -0.25}
+        },
+        wire =
+        {
+          red = {-0.28125, -0.5625},
+          green = {0.21875, -0.5625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, -0.15625},
+          green = {0.75, 0.25},
+        },
+        wire =
+        {
+          red = {0.46875, -0.5},
+          green = {0.46875, -0.09375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, 0.5625},
+          green = {0.21875, 0.5625}
+        },
+        wire =
+        {
+          red = {0.28125, 0.15625},
+          green = {-0.21875, 0.15625}
+        }
+      },
+      {
+        shadow =
+        {
+          red = {-0.03125, 0.28125},
+          green = {-0.03125, -0.125},
+        },
+        wire =
+        {
+          red = {-0.46875, 0},
+          green = {-0.46875, -0.40625},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
+  {
+    type = "constant-combinator",
+    name = "nor-gate-combinator",
+    icon = "__UsefulCombinators__/graphics/icons/nor-gate-combinator.png",
+    icon_size = 32,
+		flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "nor-gate-combinator"},
+    max_health = 50,
+    corpse = "small-remnants",
+
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+
+    item_slot_count = 1,
+    
+    sprites =
+    {
+      north =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nor-gate-combinator.png",
+        x = 158,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      east =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nor-gate-combinator.png",
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      south =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nor-gate-combinator.png",
+        x = 237,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      west =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/nor-gate-combinator.png",
+        x = 79,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      }
+    },
+
+    activity_led_sprites =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-N.png",
+        width = 11,
+        height = 10,
+        frame_count = 1,
+        shift = {0.296875, -0.40625},
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-E.png",
+        width = 14,
+        height = 12,
+        frame_count = 1,
+        shift = {0.25, -0.03125},
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-S.png",
+        width = 11,
+        height = 11,
+        frame_count = 1,
+        shift = {-0.296875, -0.078125},
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-W.png",
+        width = 12,
+        height = 12,
+        frame_count = 1,
+        shift = {-0.21875, -0.46875},
+      }
+    },
+
+    activity_led_light =
+    {
+      intensity = 0.8,
+      size = 1,
+    },
+
+    activity_led_light_offsets =
+    {
+      {0.296875, -0.40625},
+      {0.25, -0.03125},
+      {-0.296875, -0.078125},
+      {-0.21875, -0.46875}
+    },
+
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.15625, -0.28125},
+          green = {0.65625, -0.25}
+        },
+        wire =
+        {
+          red = {-0.28125, -0.5625},
+          green = {0.21875, -0.5625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, -0.15625},
+          green = {0.75, 0.25},
+        },
+        wire =
+        {
+          red = {0.46875, -0.5},
+          green = {0.46875, -0.09375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, 0.5625},
+          green = {0.21875, 0.5625}
+        },
+        wire =
+        {
+          red = {0.28125, 0.15625},
+          green = {-0.21875, 0.15625}
+        }
+      },
+      {
+        shadow =
+        {
+          red = {-0.03125, 0.28125},
+          green = {-0.03125, -0.125},
+        },
+        wire =
+        {
+          red = {-0.46875, 0},
+          green = {-0.46875, -0.40625},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
+  {
+    type = "constant-combinator",
+    name = "xor-gate-combinator",
+    icon = "__UsefulCombinators__/graphics/icons/xor-gate-combinator.png",
+    icon_size = 32,
+		flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "xor-gate-combinator"},
+    max_health = 50,
+    corpse = "small-remnants",
+
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+
+    item_slot_count = 1,
+    
+    sprites =
+    {
+      north =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xor-gate-combinator.png",
+        x = 158,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      east =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xor-gate-combinator.png",
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      south =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xor-gate-combinator.png",
+        x = 237,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      west =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xor-gate-combinator.png",
+        x = 79,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      }
+    },
+
+    activity_led_sprites =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-N.png",
+        width = 11,
+        height = 10,
+        frame_count = 1,
+        shift = {0.296875, -0.40625},
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-E.png",
+        width = 14,
+        height = 12,
+        frame_count = 1,
+        shift = {0.25, -0.03125},
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-S.png",
+        width = 11,
+        height = 11,
+        frame_count = 1,
+        shift = {-0.296875, -0.078125},
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-W.png",
+        width = 12,
+        height = 12,
+        frame_count = 1,
+        shift = {-0.21875, -0.46875},
+      }
+    },
+
+    activity_led_light =
+    {
+      intensity = 0.8,
+      size = 1,
+    },
+
+    activity_led_light_offsets =
+    {
+      {0.296875, -0.40625},
+      {0.25, -0.03125},
+      {-0.296875, -0.078125},
+      {-0.21875, -0.46875}
+    },
+
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.15625, -0.28125},
+          green = {0.65625, -0.25}
+        },
+        wire =
+        {
+          red = {-0.28125, -0.5625},
+          green = {0.21875, -0.5625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, -0.15625},
+          green = {0.75, 0.25},
+        },
+        wire =
+        {
+          red = {0.46875, -0.5},
+          green = {0.46875, -0.09375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, 0.5625},
+          green = {0.21875, 0.5625}
+        },
+        wire =
+        {
+          red = {0.28125, 0.15625},
+          green = {-0.21875, 0.15625}
+        }
+      },
+      {
+        shadow =
+        {
+          red = {-0.03125, 0.28125},
+          green = {-0.03125, -0.125},
+        },
+        wire =
+        {
+          red = {-0.46875, 0},
+          green = {-0.46875, -0.40625},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
+  {
+    type = "constant-combinator",
+    name = "xnor-gate-combinator",
+    icon = "__UsefulCombinators__/graphics/icons/xnor-gate-combinator.png",
+    icon_size = 32,
+		flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "xnor-gate-combinator"},
+    max_health = 50,
+    corpse = "small-remnants",
+
+    collision_box = {{-0.35, -0.35}, {0.35, 0.35}},
+    selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
+
+    item_slot_count = 1,
+    
+    sprites =
+    {
+      north =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xnor-gate-combinator.png",
+        x = 158,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      east =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xnor-gate-combinator.png",
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      south =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xnor-gate-combinator.png",
+        x = 237,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      },
+      west =
+      {
+        filename = "__UsefulCombinators__/graphics/entity/combinator/xnor-gate-combinator.png",
+        x = 79,
+        width = 79,
+        height = 63,
+        frame_count = 1,
+        shift = {0.140625, 0.140625},
+      }
+    },
+
+    activity_led_sprites =
+    {
+      north =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-N.png",
+        width = 11,
+        height = 10,
+        frame_count = 1,
+        shift = {0.296875, -0.40625},
+      },
+      east =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-E.png",
+        width = 14,
+        height = 12,
+        frame_count = 1,
+        shift = {0.25, -0.03125},
+      },
+      south =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-S.png",
+        width = 11,
+        height = 11,
+        frame_count = 1,
+        shift = {-0.296875, -0.078125},
+      },
+      west =
+      {
+        filename = "__base__/graphics/entity/combinator/activity-leds/constant-combinator-LED-W.png",
+        width = 12,
+        height = 12,
+        frame_count = 1,
+        shift = {-0.21875, -0.46875},
+      }
+    },
+
+    activity_led_light =
+    {
+      intensity = 0.8,
+      size = 1,
+    },
+
+    activity_led_light_offsets =
+    {
+      {0.296875, -0.40625},
+      {0.25, -0.03125},
+      {-0.296875, -0.078125},
+      {-0.21875, -0.46875}
+    },
+
+    circuit_wire_connection_points =
+    {
+      {
+        shadow =
+        {
+          red = {0.15625, -0.28125},
+          green = {0.65625, -0.25}
+        },
+        wire =
+        {
+          red = {-0.28125, -0.5625},
+          green = {0.21875, -0.5625},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, -0.15625},
+          green = {0.75, 0.25},
+        },
+        wire =
+        {
+          red = {0.46875, -0.5},
+          green = {0.46875, -0.09375},
+        }
+      },
+      {
+        shadow =
+        {
+          red = {0.75, 0.5625},
+          green = {0.21875, 0.5625}
+        },
+        wire =
+        {
+          red = {0.28125, 0.15625},
+          green = {-0.21875, 0.15625}
+        }
+      },
+      {
+        shadow =
+        {
+          red = {-0.03125, 0.28125},
+          green = {-0.03125, -0.125},
+        },
+        wire =
+        {
+          red = {-0.46875, 0},
+          green = {-0.46875, -0.40625},
+        }
+      }
+    },
+    circuit_wire_max_distance = 7.5
+  },
 })
